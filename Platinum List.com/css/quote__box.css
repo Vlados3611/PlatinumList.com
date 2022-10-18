@@ -1,0 +1,117 @@
+.quote-box {
+    width: 1170px;
+    height: 301px;
+    margin-top: 100px;
+    position: relative;
+
+}
+
+.quote__top {
+    width: 100%;
+    
+}
+
+.quote__top__img {
+    width: 68px;
+    height: 68px;
+    opacity: 0.3;
+    position: absolute;
+}
+
+.quote__bottom {
+    width: 100%;
+}
+
+.quote__bottom__img {
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    opacity: 0.3;
+    transform: rotate(180deg);
+    right: 0;
+}
+
+.quote__text {
+    text-align: center;
+    font-size: 34px;
+    line-height: 52px;
+    font-family: "Arial";
+    color: #58595b;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 40px;
+}
+
+.quote__author {
+    margin-top: 80px;
+}
+
+.quote__author__title {
+    text-align: center;
+    width: 247px;
+    height: 40px;
+    font-size: 16px;
+    font-family: "Arial";
+    font-style: italic;
+    color: #6C6E70;
+    margin-left: 800px;
+}
+
+.quote__author__img {
+    width: 104px;
+    height: 64px;
+    float: right;
+    margin-top: -50px;
+}
+
+@media (min-width: 0px) and (max-width: 1100px) {
+    .first-box-menu {
+        margin-left: 30px;
+        margin-right: 0px;
+        max-width: 100%;
+    }
+    .second-box-menu {
+        margin-left: 30px;
+        margin-right: 0px;
+        max-width: 100%;
+    }
+    .h1-title-first-box {
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .sub-h1-title-first-box {
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .button-1-first-box {
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .title-for-comp-box {
+        margin-left: 30px;
+    }
+    .high-text-for-footer-row {
+        margin-left: 30px;
+    }
+    .footer-row-h1-title {
+        margin-left: 30px;
+    }
+    .footer-row-h2-title {
+        margin-left: 30px;
+    }
+    .footer-row-button {
+        margin-left: 30px;
+    }
+    .social-box {
+        margin-left: 30px;
+    }
+    .succes-box {
+        margin-left: 30px;
+    }
+    .new-more-section {
+        margin-left: 30px;
+    }
+};
+
+
+

@@ -1,0 +1,205 @@
+.clearfix-box {
+    margin-top: 220px;
+    
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(1, 1, 1, 0.1);
+}
+
+.clearfix-block-1 {
+    flex: 1;
+    margin-right: 70px;
+    height: auto;
+}
+
+.clearfix-block-2 {
+    flex: 1;
+    margin-right: 70px;
+    height: auto;
+}
+
+.clearfix-block-3 {
+    flex: 1;
+    margin-right: 70px;
+    height: auto;
+}
+
+.clearfix-block-4 {
+    flex: 1;
+    margin-right: 70px;
+    height: auto;
+}
+
+.clearfix-logo-img {
+    width: 170px;
+    height: 24px;
+}
+
+.clearfix-title-for-logo {
+    font-size: 13px;
+    font-family: "Roboto";
+    color: #9B9B9B;
+    width: 326px;
+    height: 33px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.hotline-title-link {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: #37A7F8;
+    height: 18px;
+    font-weight: bold;
+}
+
+.hotline-phone-number {
+    font-size: 30px;
+    font-family: "Arial";
+    color: #58585B;
+    margin-top: 8px;
+    height: 36px;
+    width: 230px;
+    font-weight: bold;
+}  
+
+.hotline-workdays {
+    font-size: 13px;
+    font-family: "Roboto";
+    color: #9b9b9b;
+    margin-top: 10px;
+    height: 16px;
+    width: 211px;
+    font-weight: bold;
+}
+
+.clearfix-help-title {
+    font-size: 15px;
+    color: #9B9B9B;
+    font-family: "Roboto";
+    width: 200px;
+    height: 18px;
+    font-weight: bold;
+}
+
+.clearfix-support-button {
+    width: 200px;
+    height: 38.1px;
+    color: #58585B;
+    border: 1px solid #58585B;
+    border-radius: 13px;
+    background: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Arial";
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 7px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.clearfix-support-button:hover {
+    background-color: #58585B;
+    color: white;
+}
+
+.clearfix-event-title {
+    width: 200px;
+    height: 18px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Roboto";
+    color: #9B9B9B;
+}
+
+.clearfix-event-button {
+    width: 200px;
+    height: 38px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Arial";
+    background-color: #98CC54;
+    margin-top: 7px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 13px;
+    border: 1px solid #98CC54;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.clearfix-event-button:hover {
+    background: none;
+    color: #98CC54;
+
+}
+
+.clearfix-event-title-1 {
+    width: 200px;
+    height: 16px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: "Roboto";
+    margin-top: 10px;
+    color: #9B9B9B;
+}
+
+
+@media (min-width: 0px) and (max-width: 1100px) {
+    .first-box-menu {
+        margin-left: 30px;
+        margin-right: 0px;
+        max-width: 100%;
+    }
+    .second-box-menu {
+        margin-left: 30px;
+        margin-right: 0px;
+        max-width: 100%;
+    }
+    .h1-title-first-box {
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .sub-h1-title-first-box {
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .button-1-first-box {
+        margin-left: 30px;
+        margin-right: 0px;
+    }
+    .title-for-comp-box {
+        margin-left: 30px;
+    }
+    .high-text-for-footer-row {
+        margin-left: 30px;
+    }
+    .footer-row-h1-title {
+        margin-left: 30px;
+    }
+    .footer-row-h2-title {
+        margin-left: 30px;
+    }
+    .footer-row-button {
+        margin-left: 30px;
+    }
+    .social-box {
+        margin-left: 30px;
+    }
+    .succes-box {
+        margin-left: 30px;
+    }
+    .new-more-section {
+        margin-left: 30px;
+    }
+};
+
+
